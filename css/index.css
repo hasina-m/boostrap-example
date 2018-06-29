@@ -1,0 +1,31 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color:#9E829C;
+}
+a {
+	color: #291528;
+}
+
+.navbar-default {
+	background-color: #72BDCC;
+	border-color: #000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Style the active class (and buttons on mouse-over) */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
